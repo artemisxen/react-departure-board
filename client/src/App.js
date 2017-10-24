@@ -19,7 +19,7 @@ class App extends Component {
 
   componentDidMount() {
     var component = this;
-    var dataUrl = 'https://railwoodpecker.herokuapp.com/'
+    var dataUrl = 'https://departure-board-server.herokuapp.com/'
 
     setInterval(() => {
       fetch(dataUrl)

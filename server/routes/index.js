@@ -8,7 +8,7 @@ setInterval(function() {
   request("http://transportapi.com/v3/uk/train/station/CST/live.json?type=departure&app_id=" + process.env.APP_ID + "&app_key=" + process.env.APP_KEY, function(error, response, body) {
     data = body;
   });
-}, 60000);
+}, 2000);
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
