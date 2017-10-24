@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-import App from '../App';
 import Train from './Train';
 
-
 class TrainList extends Component {
-
   render() {
     return (
       <div className="section-general w-container">
@@ -28,4 +25,4 @@ class TrainList extends Component {
   }
 }
 
-export default TrainList;
+export default TrainList

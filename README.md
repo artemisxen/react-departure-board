@@ -26,7 +26,7 @@ Kat: https://github.com/kitkat119
 - $ git clone git@github.com:oleglukyanov/react-departure-board.git
 - $ cd react-departure-board
 - $ npm install  
-- $ cd react-backend/client
+- $ cd client
 - $ npm start  
 - $ visit http://localhost:3000/
 

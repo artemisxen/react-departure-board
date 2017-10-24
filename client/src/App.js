@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './App.css';
-import TrainList from './components/trainList';
-
+import TrainList from './components/TrainList'
 
 class App extends Component {
   constructor(props) {
@@ -21,12 +19,12 @@ class App extends Component {
 
   componentDidMount() {
     var component = this;
-    var cannon_street_url = 'https://railwoodpecker.herokuapp.com/'
+    var dataUrl = 'https://railwoodpecker.herokuapp.com/'
 
-    setInterval(function() {
-      fetch(cannon_street_url)
+    setInterval(() => {
+      fetch(dataUrl)
       .then((resp) => resp.json())
-      .then(function(data){
+      .then((data) => {
         component.setState({
           data: data.departures
         });
