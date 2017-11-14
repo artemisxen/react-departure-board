@@ -1,6 +1,6 @@
 ## LIVE DEPARTURE BOARD
 
-A live departure board built with React JS. A web app built in 3,5 days as a team of 4, following XP values and Agile methodology.
+A live departure board built with React JS. A web app built in 3,5 days as a team of 4, following XP values and Agile methodology. 
 
 We're on heroku: https://live-departure-board.herokuapp.com/
 
